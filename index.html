@@ -4,35 +4,70 @@
 <head>
     <meta charset="utf-8">
     <title>ImServer</title>
-    <meta name="keywords" content="ImServer,server.im" />
-    <meta name="description" content="ImServer" />
+    <meta name="keywords" content="Server.IM" />
+    <meta name="description" content="ServerIM" />
+    <link rel="icon" type="image/png" href="./logo.png">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link href="https://fonts.font.im/css?family=Patua+One" rel="stylesheet">
+    <link href="./fonts.css" rel="stylesheet">
 </head>
 <style>
 body, html{
     padding: 0;
     margin: 0;
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 body{
     display: flex;
     display: -webkit-flex;
-    overflow: hidden;
     align-items:center;
     justify-content:center;
-    background: #0B0B1B;
-
+    background: #15162a;
 }
-.item{
+h1,p{
+    margin: 0;
+}
+.main{
     width: 100%;
-    font-family: 'Patua One', cursive;
     text-align: center;
-    font-size: 140px;
+    font-size: 32px;
     color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+}
+.intro{
+    padding-left: 25px;
+    line-height: 1;
+    color: antiquewhite;
+}
+.intro h1{
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+}
+.intro p{
+    font-size: 1.0rem;
 }
 </style>
 <body>
-    <div class="item">server.im</div>
+    <div class="main">
+        <div class="logo">
+            <img src="./logo.png"/>
+        </div>
+        <div class="intro">
+            <h1>Server.IM</h1>
+            <p>https://Server.IM/</p>
+        </div>
+    </div>
 </body>
 </html>
